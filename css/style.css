@@ -1,0 +1,172 @@
+.h-5 {
+  height: 5vh;
+}
+
+.h-10 {
+  height: 10vh;
+}
+
+.h-80 {
+  height: 80vh;
+}
+
+.product-cards {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0%;
+  padding: 2% 0% 2% 0%;
+  height: auto;
+  width: 100%;
+  overflow-y: auto;
+  border: solid 1px yellowgreen;
+  border-radius: 10px;
+}
+
+.card {
+  margin: 1%;
+  height: 150px;
+  width: 125px;
+  transition: all 2s;
+}
+
+.card:hover {
+  transform: rotateY(360deg);
+  cursor: pointer;
+}
+
+.card-img-top {
+  height: 55%;
+  width: 100%;
+}
+
+.card img:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.card-title {
+  padding: 0%;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.card-text {
+  padding: 0%;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.cart {
+  border-radius: 10px;
+}
+
+.cart-header {
+  height: 10%;
+  color: aliceblue;
+  padding-top: 4%;
+  padding-left: 2%;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.cart-list {
+  padding: 1% 5% 1% 5%;
+  height: 85%;
+  overflow-y: auto;
+  border: solid 1px grey;
+}
+
+.row {
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+.cart-image {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 1;
+}
+
+.cart-image img {
+  height: 100%;
+  width: 100%;
+  border: solid 1px orange;
+  border-radius: 5px;
+}
+
+.cart-quantity {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0%;
+  padding: 0%;
+  height: 20px;
+  width: 20px;
+  z-index: 2;
+  background-color: seagreen;
+  color: aliceblue;
+  border-radius: 50%;
+}
+
+.cart-quantity p {
+  margin-top: 1rem;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.cart-font {
+  padding-top: 20px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.delete-icon {
+  padding-top: 18px;
+  padding-left: 5px;
+  font-size: 14px;
+}
+
+.delete-icon img {
+  height: 20px;
+  width: 20px;
+}
+
+.grand-total {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 10%;
+  width: 100%;
+  color: aliceblue;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.total-text {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 2%;
+  height: 100%;
+  width: 50%;
+}
+
+.total-price {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 2%;
+  height: 100%;
+  width: 50%;
+}
